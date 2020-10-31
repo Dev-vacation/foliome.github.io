@@ -61,6 +61,16 @@ textarea{
   margin-left: auto;
   border: none;
   background: $accent;
+  transition: background-color 0.8s ease;
+  border-radius: 5px;
+  transition: border-radius 1s;
+  &:hover{
+
+    background: lighten($accent,6%);
+    border-radius: 10px;
+    transition: border-radius 1s;
+
+  }
   @include sans-serif($fs:2em,$color:$white);
   padding: .5em 1.5em;
 }

@@ -652,6 +652,9 @@ textarea {
   margin-left: auto;
   border: none;
   background: #03afc2;
+  transition: background-color 0.8s ease;
+  border-radius: 5px;
+  transition: border-radius 1s;
   font-size: 2em;
   letter-spacing: 0.15em;
   color: #FFFFFF;
@@ -659,6 +662,11 @@ textarea {
   line-height: 1;
   font-family: "Six Caps", sans-serif;
   padding: .5em 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_contact\.scss}line{font-family:\0000367}}
+  .button:hover {
+    background: #03cae0;
+    border-radius: 10px;
+    transition: border-radius 1s; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_footer\.scss}line{font-family:\000033}}
 footer {

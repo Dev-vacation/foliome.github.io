@@ -1,0 +1,71 @@
+.about-me{
+  @include container($width:90%,$max-width:50em);
+  @include clearfix;
+  margin-top:  3em;
+  margin-bottom:  2em;
+}
+.about-img{
+  max-height: 25em;
+    border: 1px solid $accent;
+    border-radius: 4px;
+    padding: 6px;
+    opacity: 0.5;
+    border-radius: 15px 50px;
+    transition: border-radius 1s;
+  &:hover{
+    opacity: 1;
+    border-radius: 50px 5px;
+    transition: border-radius 1s;
+  }
+
+  @media(min-width: 42em){
+    float: left;
+    margin-right: 1em;
+
+  }
+}
+
+.about-title{
+  margin-bottom: .25em;
+}
+.about-subtitle{
+  margin: .5em 0;
+}
+
+@supports(display: grid){
+  .about-me{
+    display: grid;
+    grid-template-columns:[port-start] minmax(6em,15%)[name-start] minmax(6em,15%) [img-end] 2fr [port-end];
+    grid-column-gap: 1em;
+  }
+  .about-img{
+    grid-column: port / img;
+    grid-row: 1 / 2;
+
+      @include mq{
+      grid-row: 1 / 4;
+    }
+  }
+
+  .about-title{
+    grid-column: name / port;
+    grid-row: 1/2;
+    align-self: end;
+
+  }
+  .about-subtitle,
+  .about-text{
+    grid-column: port / port;
+
+    @include mq{
+      grid-column:  img / port;
+    }
+  }
+  .about-subtitle{
+
+    grid-row: 2 / 3;
+  }
+  .about-text{
+    grid-row: 3 / 4;
+  }
+}

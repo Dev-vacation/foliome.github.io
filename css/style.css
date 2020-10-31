@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg,
+              rgba(9,9,121,1) 0%,
+              rgba(3,89,152,1) 0%,
+              rgba(0,212,255,1) 100%);
+              font-family: 'Merriweather Sans', cursive;
+}
+body div{
+  width: 350px;
+  margin-top: 50px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}

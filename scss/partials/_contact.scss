@@ -1,0 +1,66 @@
+@import'../modules/colors';
+
+.contact{
+  @include container;
+  padding:  5em 0;
+  h1{
+    text-align: center;
+  }
+}
+label{
+  display: block;
+  margin-top:  1em;
+  color: $drak-gray;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  @supports(display: grid){
+    @include mq{
+      display: grid;
+      grid-column-gap: 1em;
+      grid-template-areas:
+        "name     email"
+        "message  message"
+        "   .     button";
+        .name{
+          grid-area: name;
+        }
+        .email{
+          grid-area: email;
+        }
+        .message{
+          grid-area: message;
+          textarea{
+            height: 10em;
+          }
+        }
+        .button{
+          grid-area: button;
+        }
+    }
+  }
+}
+
+input,
+textarea{
+  box-sizing: border-box;
+  display: block;
+  padding: .75em;
+  width: 100%;
+  background:lighten($light-gray, 5%);
+  border: 1px solid $light-gray;
+  font-size: 1.2rem;
+}
+
+.button{
+  display: block;
+  width: auto;
+  margin-top: 1em;
+  margin-left: auto;
+  border: none;
+  background: $accent;
+  @include sans-serif($fs:2em,$color:$white);
+  padding: .5em 1.5em;
+}

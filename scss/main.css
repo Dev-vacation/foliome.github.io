@@ -316,32 +316,33 @@ body {
   font-family: "Merriweather Sans", sans-serif;
   line-height: 1.6;
   background: #FFFFFF;
-  font-size: .875rem; }
+  font-size: .875rem;
+  overflow-x: hidden; }
   @media (min-width: 50em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\000033}}
     body {
       font-size: 1.125rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000315}}
 img {
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000318}}
 h1, h2, p {
   margin-top: 0;
   margin-bottom: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000324}}
 h1 {
   color: #03afc2;
   line-height: 1;
   font-size: 3.125rem; }
   @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000324}}
     h1 {
       font-size: 4.25rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000333}}
 h2 {
   font-size: 2rem;
   letter-spacing: 0.15em;
@@ -350,7 +351,7 @@ h2 {
   line-height: 1;
   font-family: "Six Caps", sans-serif; }
   @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_base\.scss}line{font-family:\0000333}}
     h2 {
       font-size: 3rem; } }
 
@@ -362,8 +363,9 @@ h2 {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000312}}
+  justify-content: center;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000313}}
   .welcome h1 {
     font-size: 1.5rem;
     font-weight: 400;
@@ -371,10 +373,10 @@ h2 {
     line-height: 2;
     text-align: center; }
     @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000313}}
       .welcome h1 {
         font-size: 3vw; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000323}}
     .welcome h1 span {
       font-size: 5rem;
       letter-spacing: 0.15em;
@@ -384,20 +386,20 @@ h2 {
       font-family: "Six Caps", sans-serif;
       display: block; }
       @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000323}}
         .welcome h1 span {
           font-size: 8vw; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000330}}
     .welcome h1::before, .welcome h1::after {
       content: '';
       display: block;
       width: 60%;
       height: 2px;
       background: #223843; }
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000338}}
     .welcome h1::before {
       margin: 0 auto 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_welcome\.scss}line{font-family:\0000339}}
     .welcome h1::after {
       margin: 2em auto 0; }
 
@@ -651,8 +653,8 @@ textarea {
   margin-top: 1em;
   margin-left: auto;
   border: none;
+  transition: all 2s ease;
   background: #03afc2;
-  transition: background-color 0.8s ease;
   border-radius: 5px;
   transition: border-radius 1s;
   font-size: 2em;
@@ -662,16 +664,21 @@ textarea {
   line-height: 1;
   font-family: "Six Caps", sans-serif;
   padding: .5em 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_contact\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_contact\.scss}line{font-family:\0000368}}
   .button:hover {
-    background: #03cae0;
+    /*background: $drak-gray;/**;**/
     border-radius: 10px;
-    transition: border-radius 1s; }
+    background-color: #223843;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_footer\.scss}line{font-family:\000033}}
 footer {
   background: #223843;
-  padding: 5em 0;
+  padding: 5em 0 3em 0;
   text-align: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_footer\.scss}line{font-family:\000038}}
@@ -695,5 +702,94 @@ footer {
   background: rgba(255, 255, 255, 0.15);
   margin: 3em auto;
   width: 36%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\000031}}
+.menu-button {
+  position: absolute;
+  top: 3em;
+  left: 3em;
+  background: transparent;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\000038}}
+.menu-button:focus {
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000311}}
+nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 28%;
+  z-index: 10;
+  transform: translateX(-100%);
+  transition: transform ease-out 260ms; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000323}}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: stretch;
+  background: #03afc2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000334}}
+nav li {
+  text-align: center;
+  transition: all 1s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000338}}
+  nav li:not(:last-of-type) {
+    border-bottom: 1px solid #223843; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000343}}
+nav li:hover {
+  background: rgba(34, 56, 67, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000346}}
+nav a {
+  font-size: 3rem;
+  letter-spacing: 0.15em;
+  color: #223843;
+  text-transform: upercase;
+  line-height: 1;
+  font-family: "Six Caps", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  padding: calc(100vh/8) 0;
+  line-height: 0;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000354}}
+nav a:hover {
+  color: #E8E9EB; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000357}}
+.close-icon {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000360}}
+.nav-is-open {
+  height: 100vh;
+  overflow-y: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000365}}
+  .nav-is-open nav {
+    transform: translateX(0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000371}}
+  .nav-is-open .container-all {
+    transform: translateX(70%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000374}}
+  .nav-is-open .hamberger {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000378}}
+  .nav-is-open .close-icon {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/I\:\/Fullstack\/02\/scss\/partials\/_nav\.scss}line{font-family:\0000381}}
+  .nav-is-open .menu-button {
+    transform: translateX(-60%); }
 
 /*# sourceMappingURL=main.css.map */

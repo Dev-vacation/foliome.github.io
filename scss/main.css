@@ -684,7 +684,7 @@ nav a:hover {
   display: none; }
 
 .nav-is-open {
-  height: 100vh;
+  height: auto;
   overflow-y: hidden; }
   .nav-is-open nav {
     transform: translateX(0); }

@@ -640,6 +640,7 @@ nav {
   left: 0;
   right: 30%;
   z-index: 10;
+  height: auto;
   transform: translateX(-100%);
   transition: transform ease-out 260ms; }
 

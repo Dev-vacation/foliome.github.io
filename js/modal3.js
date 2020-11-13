@@ -31,6 +31,7 @@ portfolioContainer.addEventListener('click', e =>{
   document.addEventListener('keydown', e =>{
     modal.style.animation ='modalOut 500ms forwards'
     modal.addEventListener('animationend',modalClose)
+    document.body.style.overflowY = 'scroll'
   })
 
   modalOpen()
